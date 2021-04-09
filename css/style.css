@@ -1,0 +1,133 @@
+body {
+    text-align: center;
+}
+
+img {
+    height: 200px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+#lezioni {
+    padding: 100px 0;
+}
+
+#come {
+    background-color: lightgray;
+}
+
+#perchè {
+    background-color: lightgray;
+    margin-top: 100px;
+}
+
+#perchè img {
+    padding: 30px;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    margin-top: 80px;
+}
+
+#perchè h2 {
+    margin-bottom: 0;
+}
+
+#perchè p {
+    margin-bottom: 10px;
+}
+
+.bordered{
+    border-bottom: 1px solid grey;
+}
+
+/* MD */
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+    body {
+        font-size: 18px;
+    }
+
+    img {
+        height: 180px;
+    }
+
+    #come .col-md-offset-3 {
+        margin-top: 30px;
+    }
+
+    #perchè .col-lg-12:not(:last-child) {
+        border-bottom: 0;
+    }
+
+    #perchè img {
+        height: 180px;
+        margin-top: 30px;
+    }
+}
+
+/* XS */
+@media screen and (max-width: 767px) {
+
+    body {
+        font-size: 18px;
+    }
+
+    img {
+        height: 120px;
+    }
+
+    #lezioni {
+        padding: 10px 15px;
+        background-color: lightyellow;
+    }
+
+    #lezioni .col-xs-12:not(:first-child) {
+        margin-top: 30px;
+    }
+
+    #come {
+        background-color: white;
+    }
+
+    #come .col-xs-12 {
+        padding: 15px;
+    }
+
+    #come h2 {
+        margin: 15px 0;
+    }
+
+    #perchè {
+        background-color: lightyellow;
+        margin-top: 0;
+    }
+
+    #perchè img {
+        height: 120px;
+        margin-top: 80px;
+        padding: 20px;
+    }
+
+    #perchè h2 {
+        padding-top: 10px;
+    }
+
+    #perchè {
+        padding: 10px 15px;
+    }
+
+    #perchè .col-lg-12:not(:last-child) {
+        border-bottom: 2px solid grey;
+    }
+
+    #perchè p {
+        margin-bottom: 0;
+    }
+
+}
